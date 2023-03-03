@@ -1,0 +1,16 @@
+import java.util.*;  
+class arrayList{  
+public static void main(String args[]){  
+  ArrayList<String> arr =new ArrayList<String>();
+      arr.add("Mango"); //Adding object in arraylist    
+      arr.add("Apple");    
+      arr.add("Banana");    
+      arr.add("Grapes");    
+      //Printing the arraylist object   
+      System.out.println(arr);  
+	  Collections.sort(arr);
+  System.out.println(arr);	  
+      Collections.sort(arr, Collections.reverseOrder());
+System.out.println(arr);
+}  
+}
